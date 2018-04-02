@@ -1,0 +1,11 @@
+-module(world).
+-export([start/0]).
+start()->
+	Joe=spawn(person,init,["Joe"]),
+	Susannah=spawn(person,init,["Susannah"]),
+	Dave=spawn(person,init,["Dave"]),
+	Andy=spawn(person,init,["Andy"]),
+	Dog1=spawn(dog,init,["Dog1"]),
+	Dog2=spawn(dog,init,["Dog2"]),
+	Rabbit1=spawn(rabbit,init,["Rabbit1"]),
+	Rabbit2=spawn(rabbit,init,["Rabbit2"]).
