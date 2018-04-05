@@ -1,0 +1,14 @@
+Bin4 = list_to_binary([Bin,[9,Bin2],4,6,7,8,9|Bin3]).
+Bin=<<1,2,3,4,5>>.
+Bin3= <<6>>
+Bin2 = <<4,5>>.
+split_binary(Bin4,5).
+
+B=term_to_binary({binaries,"are",useful}).
+binary_to_term(B).
+
+
+
+
+
+
