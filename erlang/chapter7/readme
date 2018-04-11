@@ -14,7 +14,10 @@ Blue=20.
 Meu = <<Red:5,Green:6,Blue:5>>.
 
 {<<16#123456789:32/big>>,<<16#123456789:32/little>>,<<16#123456789:32/native>>,<<16#123456789:32>>}.
-%% MPEG
+%% MPEG  mp3语音格式头
 
+%% 位语法，主要适用于二进制和字节的处理，在文件存储，套接字使用的最为广泛
 
-
+beam_lib:chunks("attrs.beam",[attributes]).
+attrs:module_info(compile).
+可以用来查看模块属性。
